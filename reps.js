@@ -8,6 +8,17 @@ const masterBedroom = document.querySelectorAll('#master-bedroom');
 // =====================================================
 // TODO: Type each one of these 3 times
 // Write code here
+const house = document.querySelector('.house');
+const bedrooms = document.querySelectorAll('.bedroom');
+const masterBedroom =  document.querySelectorAll('#master-bedroom');
+
+const house = document.querySelector('.house');
+const bedrooms = document.querySelectorAll('.bedroom');
+const masterBedroom = document.querySelectorAll('#master-bedroom');
+
+const house = document.querySelector('.house');
+const bedrooms = document.querySelectorAll('.bedroom');
+const masterBedroom =  document.querySelectorAll('#master-bedroom');
 
 // =====================================================
 
@@ -25,7 +36,30 @@ newImage.setAttribute('alt', 'Image of a kitchen') // Accessibility
 // =====================================================
 // TODO: Type each one of the new elements 3 times
 // Write code here
+const newDiv = document.createElement('div');
+newDiv.setAttribute('class', 'kitchen');
 
+const newTitle = document.createElement('h1');
+newTitle.textContent = 'DOM Muscle Memory';
+
+const newImage = document.createElement('img');
+newImage.src = 'a link to an image';
+newImage.setAttribute('alt', 'Image of a kitchen');
+// ------------------------------------------
+const newDiv = document.createElement('div');
+newDiv.setAttribute('class', 'kitchen');
+
+const newTitle = document.createElement('h1');
+newTitle.textContent = 'DOM Muscle Memory';
+
+const newImage =  document.createElement('img');
+newImage.src = 'a link to an image';
+newImage.setAttribute('alt', 'Image of a kitchen');
+// -----------------------------------------------
+const newDiv = document.createElement('div');
+newDiv.setAttribute('class', 'kitchen');
+
+const newTitle = document.createElement('h1');
 // =====================================================
 
 // Prepend and append elements
