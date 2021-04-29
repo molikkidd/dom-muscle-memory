@@ -104,6 +104,96 @@ const bedroom3bathroomImg = document.createElement('img');
       bedroom3bathroomImg.setAttribute('class', 'bedroom-three__bathroom');
       bedroom3bathroomImg.setAttribute('src', 'https://cdn.styleblueprint.com/wp-content/uploads/2020/08/SB-Memphis-KitchenUnlimited-StyleBlueprint_Bathrooms-1-1-scaled.jpg');
       bedroomThreeBathroom.appendChild(bedroom3bathroomImg);
+// KITCHEN
+
+const kitchen = document.querySelector('.kitchen');
+const kitchenH2 = document.createElement('h2');
+      kitchenH2.textContent = 'KITCHEN';
+      kitchen.prepend(kitchenH2);
+
+const kitchenImg = document.createElement('img');
+      kitchenImg.setAttribute('class', 'kitchen');
+      kitchenImg.setAttribute('src', 'https://pro.com/static/43674248941a22dd2833db004b656a65/654ed/db9b1743814c0b7c5838b2338588dcc0d0d46dd3_91st-ave-mercer-island-wa-new-construction-kitchen-3.jpg');
+      kitchen.appendChild(kitchenImg);
+
+const kitchenButton = document.createElement('BUTTON');
+      kitchenButton.innerHTML = "click ME";
+      kitchen.append(kitchenButton);
+      
+
+// GUEST BATHROOM 
+const guest = document.querySelector('.bathroom-guest');
+const guestH2 = document.createElement('h2');
+      guestH2.textContent = 'Guest Bedroom';
+      guest.prepend(guestH2);
+
+const guestImg = document.createElement('img');
+      guestImg.setAttribute('class', 'guest_img');
+      guestImg.setAttribute('src', 'https://www.mrdirectint.com/media/blog/post/tips-for-preparing-your-guest-room-and-guest-bathroom-for-overnight-guests.png');
+      guest.append(guestImg);
+
+const description = document.createElement('p');
+      description.textContent = 'This is a brief description of the guest bathroom';
+      guest.append(description);
+
+const bathroomButton = document.createElement('BUTTON');
+      bathroomButton.innerHTML = 'PRESS FOR AIR FRESHENER';
+      guest.append(bathroomButton);
+
+
+// LIVINGROOM
+const livingRoom = document.querySelector('.living-room');
+      livingRoomH2 = document.createElement('h2');
+      livingRoomH2.textContent = 'LIVING ROOM';
+      livingRoom.prepend(livingRoomH2);
+
+const livingRoomImg = document.createElement('img');
+      livingRoomImg.setAttribute('class', 'living-room');
+      livingRoomImg.setAttribute('src','https://sebringdesignbuild.com/wp-content/uploads/2020/04/white-living-room-decor-ideas-0-1024x481.jpg?x66156');
+      livingRoom.append(livingRoomImg);
+
+const livingRoomDes = document.createElement('p');
+      livingRoomDes.textContent = 'This living is the best place to chill.';
+      livingRoom.append(livingRoomDes);
+
+
+
+// DINING ROOM
+
+const diningRoom = document.querySelector('.dining-room');
+      diningRoomH2 = document.createElement('h2');
+      diningRoomH2.textContent = 'DINING ROOM';
+      diningRoom.prepend(diningRoomH2);
+
+const diningRoomImg = document.createElement('img');
+      diningRoomImg.setAttribute('class', 'living-room');
+      diningRoomImg.setAttribute('src','https://www.mydomaine.com/thmb/9Q5DhDXpBubVeata7Kxb3ipTb_A=/1900x1308/filters:fill(auto,1)/DesignedbyEmilyHendersonDesign_PhotobySaraTramp_8-10c43b6e9b6a4f529313664f218e5721.jpg');
+      diningRoom.append(diningRoomImg);
+
+const diningRoomDes = document.createElement('p');
+      diningRoomDes.textContent = 'How many people you know eat at the dinner table?.';
+      diningRoom.append(diningRoomDes);
+
+
+
+// GARAGE
+
+const garage = document.querySelector('.garage');
+      garageH2 = document.createElement('h2');
+      garageH2.textContent = 'GARAGE';
+      garage.prepend(garageH2);
+
+const garageImg = document.querySelector('.garage__image');
+      garageImg.setAttribute('class', 'garage');
+      garageImg.setAttribute('src','https://static2.mansionglobal.com/production/media/article-images/4b9af2424c2328bf3782855a87fef473/large_B3-EN112_Garage_IM_20190717123019.jpg');
+      garage.append(garageImg);
+
+
+const garageDes = document.createElement('p');
+      garageDes.textContent = 'This is how a garage should look';
+      garage.append(garageDes);
+
+
 
 
 const houseImage = document.querySelector('.house__image');
